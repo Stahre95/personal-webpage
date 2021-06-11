@@ -1,0 +1,32 @@
+.navigation-container {
+    width: 100%;
+    background-color: #000;
+    height: 15%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navigation-menu-item {
+    padding: 1em;
+}
+
+.navigation-menu-item:hover {
+    color: red;
+}
+
+.navigation-name {
+    padding: 1em;
+    margin-right: auto;
+}
+
+.navigation-name span {
+    color: red;
+    font-size: 20px;
+}
