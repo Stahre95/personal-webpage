@@ -1,5 +1,6 @@
 import { ACTIVEVIEW } from '../../Features/activeView'
 import { useSelector } from 'react-redux';
+import HomePage from '../HomeView/HomePage'
 import './ActiveView.css'
 
 function ActiveView() {
@@ -13,14 +14,12 @@ function ActiveView() {
         content = 'PORTFOLIO PAGE'
     } else if (activeView === ACTIVEVIEW.CONTACT) {
         content = 'CONTACT PAGE'
-    } else if (activeView === ACTIVEVIEW.HOME) {
-        content = 'HOME PAGE'
-    } else {
-        content = 'HOME PAGE'
+    }else {
+        content = <HomePage />
     }
 
     return (
-        <div>
+        <div className="main-container">
             {content}
         </div>
     )
