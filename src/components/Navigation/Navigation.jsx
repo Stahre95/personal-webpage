@@ -58,7 +58,7 @@ function Navigation() {
             <div className={menuClicked ? "navigation-menu-open" : "navigation-menu"}>
                 <div className="navigation-menu-item" onClick={() => {animationOnClick(dispatch, 'homeButton')}}>Home</div>
                 <div className="navigation-menu-item" onClick={() => {animationOnClick(dispatch, 'aboutButton')}}>About</div>
-                <div className="navigation-menu-item" onClick={() => {animationOnClick(dispatch, 'portfolioButton')}}>Portfoli</div>
+                <div className="navigation-menu-item" onClick={() => {animationOnClick(dispatch, 'portfolioButton')}}>Portfolio</div>
                 <div className="navigation-menu-item" onClick={() => {animationOnClick(dispatch, 'contactButton')}}>Contact</div>
             </div>
         </div>
