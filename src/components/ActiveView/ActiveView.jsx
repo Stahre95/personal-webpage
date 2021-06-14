@@ -1,6 +1,7 @@
 import { ACTIVEVIEW } from '../../Features/activeView'
 import { useSelector } from 'react-redux';
 import HomePage from '../HomeView/HomePage'
+import AboutPage from '../AboutView/AboutPage'
 import './ActiveView.css'
 
 function ActiveView() {
@@ -9,7 +10,7 @@ function ActiveView() {
     let content = null;
 
     if (activeView === ACTIVEVIEW.ABOUT) {
-        content = 'ABOUT PAGE'
+        content = <AboutPage />
     } else if (activeView === ACTIVEVIEW.PORTFOLIO) {
         content = 'PORTFOLIO PAGE'
     } else if (activeView === ACTIVEVIEW.CONTACT) {

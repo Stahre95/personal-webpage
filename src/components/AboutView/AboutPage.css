@@ -1,0 +1,123 @@
+.about-container {
+    text-align: center;
+}
+
+.about-title {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.about-title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background-color: #111;
+    transform: translateX(-50%);
+}
+.about-title::after{
+    content: "Johan Stahre";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.about-profile-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-content-text-title {
+    margin-top: 2rem;
+    font-size: 30px;
+}
+
+.about-content-text {
+    margin-top: 2rem;
+    font-size: 17px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+
+/* Skills section styling */
+
+.skill-content {
+    background-color: crimson;
+    height: 100%;
+}
+
+.skill-title {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-top: 12rem;
+    padding-top: 2rem;
+}
+
+.skill-title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background-color: #111;
+    transform: translateX(-50%);
+}
+.skill-title::after{
+    content: "skills";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    background:crimson;
+    transform: translateX(-50%);
+}
+
+.skill-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-language {
+    font-size: 20px;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.skill-rating {
+    display: flex;
+    justify-content: center;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.w-6 {
+    width: 1.5em;
+}
+
+.h-6 {
+    height: 1.5em;
+}
