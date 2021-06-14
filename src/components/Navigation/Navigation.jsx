@@ -19,12 +19,16 @@ function Navigation() {
         setTimeout(() => {
             if (clickedButton === 'homeButton') {
                 dispatch(actions.home());
+                setMenuClicked(false)
             } else if (clickedButton === 'aboutButton') {
                 dispatch(actions.about());
+                setMenuClicked(false)
             } else if (clickedButton === 'portfolioButton') {
                 dispatch(actions.portfolio());
+                setMenuClicked(false)
             } else if (clickedButton === 'contactButton') {
                 dispatch(actions.contact());
+                setMenuClicked(false)
             }
         }, 250);
     }
