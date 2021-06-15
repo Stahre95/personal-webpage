@@ -1,6 +1,7 @@
 .about-container {
     text-align: center;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .about-title {
@@ -120,6 +121,10 @@
     margin-right: auto;
 }
 
+.skill-table td {
+    padding: 2rem;
+}
+
 .skill-language {
     font-size: 20px;
     padding-right: 2.5rem;
@@ -136,9 +141,16 @@
 }
 
 .w-6 {
-    width: 1.5em;
+    width: 2em;
 }
 
 .h-6 {
-    height: 1.5em;
+    height: 2em;
+}
+
+.w {
+    width: 4em;
+}
+.h {
+    height: 4em;
 }
