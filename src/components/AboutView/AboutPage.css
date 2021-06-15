@@ -29,7 +29,7 @@
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #707070;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -62,25 +62,24 @@
     margin-top: 1.5rem;
     width: 175px;
     height: 60px;
-    background-color: crimson;
-    border: 2px solid #000;
+    background-color: #707070;
+    border: 2px solid #ffdf6c;
     border-radius: 1rem;
-    color: #fff;
+    color: #ffdf6c;
     font-size: 25px;
     font-variant-caps:all-petite-caps;
 }
 
 .about-button-cv:hover {
     background-color: #fff;
-    color: #000;
-    border: 2px solid crimson;
+    color: #707070;
 }
 
 
 /* Skills section styling */
 
 .skill-content {
-    background-color: crimson;
+    background-color: #3f3f3f;
     height: 100vh;
 }
 
@@ -112,7 +111,7 @@
     font-size: 20px;
     color: #fff;
     padding: 5px;
-    background:crimson;
+    background:#3f3f3f;
     transform: translateX(-50%);
 }
 
@@ -130,6 +129,8 @@
     padding-right: 2.5rem;
     padding-left: 2.5rem;
     padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 30px;
 }
 
 .skill-rating {
@@ -140,17 +141,14 @@
     padding-bottom: 2rem;
 }
 
+.skill-icon {
+    font-size: 80px;
+}
+
 .w-6 {
     width: 2em;
 }
 
 .h-6 {
     height: 2em;
-}
-
-.w {
-    width: 4em;
-}
-.h {
-    height: 4em;
 }

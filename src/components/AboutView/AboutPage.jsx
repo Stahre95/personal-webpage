@@ -8,11 +8,12 @@ import CssIcon from '../Icons/CssIcon'
 import StarIcon from '../Icons/StarIcon'
 import JsIcon from '../Icons/JsIcon'
 import ReactIcon from '../Icons/ReactIcon'
-// import KotlinIcon from '../Icons/KotlinIcon'
 import SwiftIcon from '../Icons/SwiftIcon'
 
 const AboutPage = () => {
 
+    const fill = '#ffdf6c'
+    const empty = '#fff'
     
 
    
@@ -34,33 +35,33 @@ const AboutPage = () => {
                      <tbody className="skill-table-body">
                          <tr>
                              <td>
-                                 <div className="skill-icon"><HtmlIcon /></div>
+                                 <div className="skill-icon" id="html"><HtmlIcon /></div>
                                  <div className="skill-language">HTML5</div>
                                  <div className="skill-rating">
-                                     <StarIcon fill="yellow" />
-                                     <StarIcon fill="yellow" />
-                                     <StarIcon fill="yellow" />
+                                     <StarIcon fill={fill} />
+                                     <StarIcon fill={fill} />
+                                     <StarIcon fill={fill} />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
                                  </div>
                              </td>
                              <td>
-                                 <div className="skill-icon"><CssIcon /></div>
+                                 <div className="skill-icon" id="css"><CssIcon /></div>
                                  <div className="skill-language">CSS</div>
                                  <div className="skill-rating">
-                                     <StarIcon fill="yellow" />
-                                     <StarIcon fill="yellow" />
+                                    <StarIcon fill={fill} />
+                                     <StarIcon fill={fill} />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
                                  </div>
                              </td>
                              <td>
-                             <div className="skill-icon"><JsIcon /></div>
+                             <div className="skill-icon" id="Javascript"><JsIcon /></div>
                                  <div className="skill-language">Javascript</div>
                                  <div className="skill-rating">
-                                     <StarIcon fill="yellow" />
-                                     <StarIcon fill="yellow" />
+                                     <StarIcon fill={fill} />
+                                     <StarIcon fill={fill} />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
@@ -72,8 +73,8 @@ const AboutPage = () => {
                                  <div className="skill-icon"><ReactIcon /></div>
                                  <div className="skill-language">React</div>
                                  <div className="skill-rating">
-                                     <StarIcon fill="yellow" />
-                                     <StarIcon fill="yellow" />
+                                     <StarIcon fill={fill} />
+                                     <StarIcon fill={fill} />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
@@ -83,7 +84,7 @@ const AboutPage = () => {
                                 <div className="skill-icon"><SwiftIcon /></div>
                                  <div className="skill-language">Swift</div>
                                  <div className="skill-rating">
-                                     <StarIcon fill="yellow" />
+                                     <StarIcon fill={fill} />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
@@ -91,10 +92,10 @@ const AboutPage = () => {
                                  </div>
                              </td>
                              <td>
-                                 <div className="skill-icon"><FontAwesomeIcon icon={faHotel} size="4x" /></div>
+                                 <div className="skill-icon"><FontAwesomeIcon icon={faHotel} /></div>
                                  <div className="skill-language">Kotlin</div>
                                  <div className="skill-rating">
-                                     <StarIcon fill="yellow" />
+                                     <StarIcon fill={fill} />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
                                      <StarIcon fill="white" />
