@@ -1,12 +1,12 @@
 .home-container {
     background-color: lightcyan;
-    height: 94vh;
-    /* background-image: url('/src/Images/background.jpg');
+    height: 92.4vh;
+    background-image: url('/src/Images/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-clip: border-box; */
-    background-image: linear-gradient(#3f3f3f, #707070, #fff);
+    background-clip: border-box;
+    /* background-image: linear-gradient(#3f3f3f, #707070, #fff); */
 }
 
 .home-text-container {

@@ -80,7 +80,7 @@
 
 .skill-content {
     background-color: #3f3f3f;
-    height: 100vh;
+    height: 110vh;
 }
 
 .skill-title {
@@ -265,7 +265,7 @@
     /* skill section styling */
 
     .skill-content {
-        height: 125vh;
+        height: 135vh;
     }
     
     .grid-container {
