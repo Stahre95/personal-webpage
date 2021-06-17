@@ -32,6 +32,8 @@ const AboutPage = () => {
             {/* skills section */}
             <div className="skill-content">
                  <h1 className="skill-title">Programming</h1>
+                 <h3 className="skill-content-title">My Creative Skills & experiences</h3>
+                 <div className="skill-content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsum velit sed cumque accusamus? Inventore nulla ad nobis doloremque odio! Recusandae, consectetur omnis? Libero vel iusto quidem laboriosam qui quis corporis minima nam rem, fugiat culpa, repellat reiciendis temporibus, laudantium pariatur aliquid repellendus consequuntur dicta voluptate eos magni eum totam quod! Fuga architecto eveniet doloribus illum illo delectus ab omnis harum, quis laborum modi optio debitis suscipit, error nihil ipsam quo repellat explicabo hic. Obcaecati in et omnis incidunt doloribus repellat dolore molestias optio vitae, blanditiis pariatur nostrum corporis voluptates officiis. Eveniet sit iste cupiditate. Debitis nam quod vel aliquam?</div>
                  <div className="grid-container">
                      <div className="first-column">
                         <div className="skill-icon" id="html"><HtmlIcon /></div>
