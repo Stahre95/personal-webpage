@@ -20,7 +20,7 @@
     left: 50%;
     width: 180px;
     height: 3px;
-    background-color: #111;
+    background-color: #ffdf6c;
     transform: translateX(-50%);
 }
 .contact-title::after{
