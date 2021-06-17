@@ -1,11 +1,12 @@
 .home-container {
     background-color: lightcyan;
-    height: 100vh;
+    height: 92.4vh;
     background-image: url('/src/Images/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-clip: border-box;
+    /* background-image: linear-gradient(#3f3f3f, #707070, #fff); */
 }
 
 .home-text-container {
@@ -28,7 +29,7 @@
 }
 
 .text-3 span {
-    color: crimson;
+    color: #ffdf6c;
 }
 
 .home-button {
@@ -36,17 +37,19 @@
     margin-top: 1.5rem;
     width: 150px;
     height: 50px;
-    background-color: crimson;
-    border: 1px solid #000;
-    border-radius: 10em;
-    color: #fff;
+    background-color: #707070;
+    border: 2px solid #ffdf6c;
+    border-radius: 1rem;
+    color: #ffdf6c;
     font-size: 20px;
 }
 
 .home-button:hover {
     background-color: #fff;
-    color: #000;
+    color: #707070;
 }
+
+/* responsive design */
 
 @media screen and (max-width: 1000px) {
     .text-1{
@@ -68,7 +71,7 @@
         height: 40px;
         background-color: crimson;
         border: 1px solid #000;
-        border-radius: 10em;
+        border-radius: 1rem;
         color: #fff;
         font-size: 17px;
     } 
@@ -95,23 +98,31 @@
     .home-text-container {
         padding-top: 5rem;
         color: #fff;
-        text-align: end;
+        text-align: center;
     }
 
     .text-1{
         font-size: 13px;
-        padding-right: 5.25rem;
+        /* padding-right: 5.25rem; */
     }
     .text-2{
         font-size: 25px;
         font-weight: 600;
-        padding-right: 4rem;
+        /* padding-right: 4rem; */
     }
     .text-3{
         font-size: 17px;
     }
-    
     .home-button {
-       display: none;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        height: 30px;
+        background-color: crimson;
+        border: 1px solid #000;
+        border-radius: 1rem;
+        color: #fff;
+        font-size: 12px;
     } 
 }
