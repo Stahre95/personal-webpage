@@ -1,8 +1,6 @@
 import React from 'react'
 import './AboutPage.css'
 import ProfileImage from '../../Images/profile_image.jpeg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHotel } from '@fortawesome/free-solid-svg-icons'
 import HtmlIcon  from '../Icons/HtmlIcon'
 import CssIcon from '../Icons/CssIcon'
 import StarIcon from '../Icons/StarIcon'
@@ -42,8 +40,8 @@ const AboutPage = () => {
                                 <StarIcon fill={fill} />
                                 <StarIcon fill={fill} />
                                 <StarIcon fill={fill} />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
                             </div>
                      </div>
                      <div className="second-column">
@@ -53,8 +51,8 @@ const AboutPage = () => {
                                 <StarIcon fill={fill} />
                                 <StarIcon fill={fill} />
                                 <StarIcon fill={fill} />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
                             </div>
                      </div>
                      <div className="third-column">
@@ -63,9 +61,9 @@ const AboutPage = () => {
                             <div className="skill-rating">
                                 <StarIcon fill={fill} />
                                 <StarIcon fill={fill} />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
                             </div>
                      </div>
                      <div className="fourth-column">
@@ -74,9 +72,9 @@ const AboutPage = () => {
                             <div className="skill-rating">
                                 <StarIcon fill={fill} />
                                 <StarIcon fill={fill} />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
                             </div>
                      </div>
                      <div className="fifth-column">
@@ -84,98 +82,24 @@ const AboutPage = () => {
                             <div className="skill-language">Swift</div>
                             <div className="skill-rating">
                                 <StarIcon fill={fill} />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
                             </div>
                      </div>
-                     <div className="fifth-column">
+                     <div className="sixth-column">
                         <div className="skill-icon" id="html"><JavaIcon /></div>
                             <div className="skill-language">Kotlin</div>
                             <div className="skill-rating">
                                 <StarIcon fill={fill} />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
-                                <StarIcon fill="white" />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
+                                <StarIcon fill={empty} />
                             </div>
                      </div>
                  </div>
-                 {/* <table className="skill-table">
-                     <tbody className="skill-table-body">
-                         <tr>
-                             <td>
-                                 <div className="skill-icon" id="html"><HtmlIcon /></div>
-                                 <div className="skill-language">HTML5</div>
-                                 <div className="skill-rating">
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                 </div>
-                             </td>
-                             <td>
-                                 <div className="skill-icon" id="css"><CssIcon /></div>
-                                 <div className="skill-language">CSS</div>
-                                 <div className="skill-rating">
-                                    <StarIcon fill={fill} />
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                 </div>
-                             </td>
-                             <td>
-                             <div className="skill-icon" id="Javascript"><JsIcon /></div>
-                                 <div className="skill-language">Javascript</div>
-                                 <div className="skill-rating">
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                 </div>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <div className="skill-icon"><ReactIcon /></div>
-                                 <div className="skill-language">React</div>
-                                 <div className="skill-rating">
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                 </div>
-                             </td>
-                             <td>
-                                <div className="skill-icon"><SwiftIcon /></div>
-                                 <div className="skill-language">Swift</div>
-                                 <div className="skill-rating">
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                 </div>
-                             </td>
-                             <td>
-                                 <div className="skill-icon"><FontAwesomeIcon icon={faHotel} /></div>
-                                 <div className="skill-language">Kotlin</div>
-                                 <div className="skill-rating">
-                                     <StarIcon fill={fill} />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                     <StarIcon fill="white" />
-                                 </div>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table> */}
             </div>
         </div>
     )
