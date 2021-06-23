@@ -44,12 +44,6 @@
     text-align: justify;
 }
 
-.contact-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .contact-info {
     color: #fff;
 }
@@ -171,4 +165,86 @@
     padding-left: 0.5rem;
     font-size: 24px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1600px) {
+    .icons-row {
+        padding-left: 20rem;
+        padding-bottom: 2rem;
+    }
+
+    .contact-right {
+        margin-top: -26rem;
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .icons-row {
+        padding-left: 12rem;
+        padding-bottom: 5rem;
+    }
+
+    .contact-right {
+        margin-top: -27rem;
+        margin-right: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .contact-left {
+        width: 100%;
+        padding-top: 4rem;
+        margin-right: 0;
+    }
+    
+    .contact-right {
+        width: 100%;
+        margin-top: 0rem;
+        border: 2px solid #ffdf6c;
+        padding: 0.5rem;
+    }
+    
+    .icons-row {
+        height: 2.5rem;
+        align-items: center;
+    }
+
+    .contact-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-content-text {
+        font-size: 15px;
+        width: 75%;
+    }
+
+    .icons-row {
+        padding-left: 5rem;
+        height: 0rem;
+    }
+    .contact-right {
+        margin-bottom: 2rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .icons-info {
+        margin-left: 1rem;
+    }
+    
+    .icons {
+        font-size: 20px;
+    }
+    
+    .icons-row {
+        padding-left: 3rem;
+    }
+
+    
 }
