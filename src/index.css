@@ -5,6 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #3f3f3f;
+  min-width: 375px;
 }
 
 code {
@@ -14,4 +15,14 @@ code {
 * {
   margin: 0;
   box-sizing: border-box;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #3f3f3f;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffdf6c;
 }

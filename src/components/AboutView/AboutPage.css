@@ -1,6 +1,6 @@
 .about-container {
     text-align: center;
-    height: 130vh;
+    height: 125vh;
     scroll-behavior: smooth;
     background-color: #fff;
 }
@@ -20,7 +20,7 @@
     left: 50%;
     width: 180px;
     height: 3px;
-    background-color: #111;
+    background-color: #ffdf6c;
     transform: translateX(-50%);
 }
 .about-title::after{
@@ -99,7 +99,7 @@
     left: 50%;
     width: 180px;
     height: 3px;
-    background-color: #111;
+    background-color: #ffdf6c;
     transform: translateX(-50%);
 }
 .skill-title::after{
@@ -170,6 +170,10 @@
 
 
 @media screen and (max-width: 1000px) {
+    .about-container {
+        height: 120vh;
+    }
+
     .about-title {
         font-size: 30px;
     }
@@ -241,6 +245,9 @@
 }
 
 @media screen and (max-width: 700px) {
+    .about-container {
+        height: 140vh;
+    }
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -265,6 +272,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .about-container {
+        height: 135vh;
+    }
 
     .about-profile-image {
         width: 200px;
