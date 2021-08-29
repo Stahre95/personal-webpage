@@ -1,0 +1,26 @@
+.portfolio-title-container {
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.portfolio-title {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 6rem;
+    padding-bottom: 0.5;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.WHS {
+    background: url("/src/Images/WHS.PNG") no-repeat;
+    background-size: cover;
+    background-position: center;
+}

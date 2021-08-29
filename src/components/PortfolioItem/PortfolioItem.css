@@ -1,0 +1,44 @@
+.item-container {
+    text-align: center;
+    height: 40rem;
+    width: 25rem;
+    background: url('/src/Images/WHS.PNG') no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.item-name-container {
+    opacity: 0%;
+    height: 40rem;
+    background-color: #202020;
+    padding-top: 12rem;
+    color: #ffdf6c;
+}
+
+.item-name-container:hover {
+    opacity: 90%;
+}
+
+.item-category {
+    padding-bottom: 3rem;
+    font-size: 25px;
+}
+
+.item-name {
+    font-size: 30px;
+}
+
+.item-description {
+    font-size: 20px;
+}
+
+.item-button {
+    margin-top: 5rem;
+    width: 150px;
+    height: 50px;
+    background-color: #707070;
+    border: 2px solid #ffdf6c;
+    border-radius: 1rem;
+    color: #ffdf6c;
+    font-size: 20px;
+}
