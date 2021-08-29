@@ -1,6 +1,6 @@
 .about-container {
     text-align: center;
-    height: 125vh;
+    height: 100vh;
     scroll-behavior: smooth;
     background-color: #fff;
 }
@@ -11,6 +11,7 @@
     font-weight: 500;
     margin-bottom: 6rem;
     padding-bottom: 20px;
+    padding-top: 5rem;
 }
 
 .about-title::before{
@@ -60,7 +61,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5rem;
-    width: 175px;
+    width: 200px;
     height: 60px;
     background-color: #707070;
     border: 2px solid #ffdf6c;
@@ -87,9 +88,8 @@
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 20px;
-    margin-top: 12rem;
-    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 32rem;
 }
 
 .skill-title::before{
@@ -211,7 +211,8 @@
     .skill-title {
         font-size: 30px;
         font-weight: 400;
-        margin-bottom: 8rem;
+        margin-top: 12rem;
+
     }
 
     .skill-title::after {
@@ -244,36 +245,11 @@
 
 }
 
+
+
 @media screen and (max-width: 700px) {
     .about-container {
-        height: 140vh;
-    }
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .first-column {
-        padding-bottom: 1rem;
-    }
-
-    .skill-icon {
-        font-size: 50px;
-    }
-
-
-    .skill-language {
-        padding-right: 1.75rem;
-        padding-left: 1.75rem;
-        padding-bottom: 1.25rem;
-        padding-top: 1.25rem;
-        font-size: 23px;
-    }
-
-}
-
-@media screen and (max-width: 500px) {
-    .about-container {
-        height: 135vh;
+        height: 115vh;
     }
 
     .about-profile-image {
@@ -299,7 +275,7 @@
     /* skill section styling */
 
     .skill-content {
-        height: 135vh;
+        height: 100vh;
     }
     
     .grid-container {
@@ -307,7 +283,7 @@
     }
 
     .skill-title {
-        margin-bottom: 3rem;
+        margin-top: 12rem;
     }
 
     .skill-content-title {
